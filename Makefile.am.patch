@@ -4,7 +4,7 @@
 *** 39,58 ****
     $(top_srcdir)/contrib/macdeploy/detached-sig-apply.sh \
     $(top_srcdir)/contrib/macdeploy/detached-sig-create.sh
-  
+  #
 - 
 - if BUILD_DARWIN
 - COVERAGE_INFO = baseline_filtered_combined.info baseline.info block_test.info \

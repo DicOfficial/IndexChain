@@ -17,7 +17,7 @@ BITCOIND_BIN=$(top_builddir)/src/komodod$(EXEEXT)
 BITCOIN_CLI_BIN=$(top_builddir)/src/komodo-cli$(EXEEXT)
 #WALLET_UTILITY_BIN=$(top_builddir)/src/wallet-utility$(EXEEXT)
 BITCOIN_WIN_INSTALLER=$(PACKAGE)-$(PACKAGE_VERSION)-win$(WINDOWS_BITS)-setup$(EXEEXT)
-
+#
 if TARGET_DARWIN
 OSX_APP=Agama.app
 OSX_DMG=Agama.dmg
