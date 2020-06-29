@@ -209,3 +209,35 @@ dic@localhost:~$ komodo-cli -ac_name=DIC  gatewaysaddress
   "myaddress": "RToZ13zPQWukmcgWoBsEUKrBTFX9nmM71c",
   "mybalance": 682999.98940000
 }
+
+
+
+root@VM-16-13-ubuntu:~/test# ipfs init
+initializing IPFS node at /root/snap/ipfs/1170/.ipfs
+generating 2048-bit RSA keypair...done
+peer identity: QmbmcaMa46UBJWnaom8urGhorhv7irZpf19D5EdFm1Bjow
+to get started, enter:
+
+	ipfs cat /ipfs/QmS4ustL54uo8FzR9455qaxZwuMiUhyvMcX9Ba8nUH4uVv/readme
+
+root@VM-16-13-ubuntu:~/test# ipfs  daemon
+Initializing daemon...
+go-ipfs version: 0.4.21-8ca278f45
+Repo version: 7
+System version: amd64/linux
+Golang version: go1.12.6
+Swarm listening on /ip4/127.0.0.1/tcp/4001
+Swarm listening on /ip4/172.16.16.13/tcp/4001
+Swarm listening on /ip4/172.17.0.1/tcp/4001
+Swarm listening on /ip4/172.18.0.1/tcp/4001
+Swarm listening on /ip6/::1/tcp/4001
+Swarm listening on /p2p-circuit
+Swarm announcing /ip4/127.0.0.1/tcp/4001
+Swarm announcing /ip4/172.16.16.13/tcp/4001
+Swarm announcing /ip4/172.17.0.1/tcp/4001
+Swarm announcing /ip4/172.18.0.1/tcp/4001
+Swarm announcing /ip6/::1/tcp/4001
+API server listening on /ip4/127.0.0.1/tcp/5001
+WebUI: http://127.0.0.1:5001/webui
+Gateway (readonly) server listening on /ip4/127.0.0.1/tcp/8080
+Daemon is ready
