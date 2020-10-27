@@ -12,7 +12,7 @@ TEMP_RELEASE_NOTES_HEADER = [
     '===============\n',
     '\n',
 ]
-#
+
 RELEASE_NOTES_CHANGELOG_HEADING = [
     'Changelog\n',
     '=========\n',

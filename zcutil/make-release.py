@@ -12,7 +12,7 @@ import random
 from cStringIO import StringIO
 from functools import wraps
 
-#
+
 def main(args=sys.argv[1:]):
     """
     Perform the final Zcash release process up to the git tag.
